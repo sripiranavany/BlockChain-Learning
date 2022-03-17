@@ -1,0 +1,23 @@
+{
+  "name": "lottery",
+  "version": "1.0.0",
+  "description": "Lottery contract Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "deploy": "node deploy.js"
+  },
+  "keywords": [
+    "eth"
+  ],
+  "author": "Sripiranavan Yogarajah",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.4",
+    "dotenv": "^16.0.0",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.2.2",
+    "solc": "^0.8.13",
+    "web3": "^1.7.1"
+  }
+}
